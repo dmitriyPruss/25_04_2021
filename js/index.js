@@ -117,17 +117,27 @@
 
 // for (let i = 7; i <= 15; i = i+2) console.log('i :>> ', i);
 
-for(let i = 10; i >= 0; i--) console.log('i :>> ', i);
+// for(let i = 10; i >= 0; i--) console.log('i :>> ', i);
 
-let res = 21;
- res %=6;
- console.log('res :>> ', res);
+// let res = 21;
+// res %=6;
+// console.log('res :>> ', res);
 
- const wantedValue = 7;
-let value;
+// const wantedValue = 7;
+// let value;
 
- do {
-    value = Number(prompt("Enter the value"));
- } while (value !== wantedValue);
+// do {
+//     value = Number(prompt("Enter the value"));
+// } while (value !== wantedValue);
 
- console.log('Youa are lucky! :>> \u{1F600}');
+// console.log('You are lucky! :>> \u{1F600}');
+
+let i = 11;
+let result1 = 0;
+do {
+    console.log('i :>> ', i);
+    result1 += i;
+    i++;
+} while (i <= 10);
+
+console.log('result1 :>> ', result1);
